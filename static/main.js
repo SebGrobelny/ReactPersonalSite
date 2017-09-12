@@ -112,7 +112,7 @@ var PortfolioComponent = React.createClass({
                                     Flask, SQLite3, D3
                                 </div>
                                 <div className="project-category text-faded">
-                                    Source Code: <a href="https://github.com/SebGrobelny/SFDevelopmentPipeline">  github.com/SebGrobelny/SFDevelopmentPipeline </a> 
+                                  <a href="https://github.com/SebGrobelny/SFDevelopmentPipeline" style="background-color:#fff">  github.com/SebGrobelny/SFDevelopmentPipeline </a> 
                                 </div>
                             </div>
                         </div>
@@ -130,7 +130,7 @@ var PortfolioComponent = React.createClass({
                                     Flask, SQLite3
                                 </div>
                                 <div className="project-category text-faded">
-                                    Source Code: <a href="https://github.com/SebGrobelny/NBAAnalytics">  github.com/SebGrobelny/NBAAnalytics </a> 
+                                   <a href="https://github.com/SebGrobelny/NBAAnalytics" style="background-color:#fff">  github.com/SebGrobelny/NBAAnalytics </a> 
                                 </div>
                             </div>
                         </div>
