@@ -65,6 +65,7 @@ var ContactComponent = React.createClass({
 var HomeComponent = React.createClass({
 
   render: function() {
+    const header = "Welcome to Sebastian Grobelny's Personal Website"
     return (
 
         <div className="header-content">
@@ -72,8 +73,8 @@ var HomeComponent = React.createClass({
                 <h1 id="homeHeading">Hello!</h1>
                 <hr/>
                 <Clock />
-                <h3>Welcome to my Personal Website</h3>
-                <h3>This site was built using React for the front-end along with Node.js to handle the back-end. BootStrap stylesheets were also utilized for some of the styling.</h3>
+                <h3>{header}</h3>
+                <h3>I built this website using React for the front-end along with Node.js to handle the back-end. BootStrap stylesheets were also utilized for some of the styling.</h3>
                 <h4>  <a href="https://github.com/SebGrobelny/ReactPersonalSite">Click here to view the source code on GitHub</a> </h4>
             </div>
         </div>
