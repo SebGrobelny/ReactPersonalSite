@@ -111,6 +111,9 @@ var PortfolioComponent = React.createClass({
                                 <div className="project-category text-faded">
                                     Flask, SQLite3, D3
                                 </div>
+                                <div className="project-category text-faded">
+                                    Source Code: <a href="https://github.com/SebGrobelny/SFDevelopmentPipeline">  github.com/SebGrobelny/SFDevelopmentPipeline </a> 
+                                </div>
                             </div>
                         </div>
                     </a>
@@ -125,6 +128,9 @@ var PortfolioComponent = React.createClass({
                                 </div>
                                 <div className="project-category text-faded">
                                     Flask, SQLite3
+                                </div>
+                                <div className="project-category text-faded">
+                                    Source Code: <a href="https://github.com/SebGrobelny/NBAAnalytics">  github.com/SebGrobelny/NBAAnalytics </a> 
                                 </div>
                             </div>
                         </div>
