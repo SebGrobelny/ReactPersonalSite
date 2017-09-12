@@ -164,6 +164,7 @@ var ExperienceComponent = React.createClass({
                             Apr 2017 – Jun 2017<br />  
                             UC Davis<br />
                             C, C++, GDB, Git <br />
+                            <br />
                         </p>
                     </div>
                 </div>
@@ -175,7 +176,9 @@ var ExperienceComponent = React.createClass({
                             Software Developer Intern<br />
                             Jan 2017 – June 2017 <br />             
                             San Francisco Bay Area <br />
-                            Python, Java<br /></p>
+                            Python, Java<br />
+                            <br />
+                            </p>
 
                     </div> 
                     </div>
@@ -189,6 +192,7 @@ var ExperienceComponent = React.createClass({
                             Jun 2016 – Sep 2016<br />  
                             San Francisco Bay Area<br />
                             Python, Java, JavaScript, SQL, PostGres, REST <br />
+                            <br />
                         </p>
 
                     </div> 
@@ -213,6 +217,7 @@ var ExperienceComponent = React.createClass({
                             Volunteer <br />
                             Sep 2016 – Jun 2017<br />  
                             Lego NXT Robotics Kits<br />
+                            <br />
 
                         </p>
                     </div>
