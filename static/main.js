@@ -74,7 +74,7 @@ var HomeComponent = React.createClass({
                 <hr/>
                 <Clock />
                 <h3>{header}</h3>
-                <h3>I built this website using React for the front-end along with Node.js to handle the back-end. BootStrap stylesheets were also utilized for some of the styling.</h3>
+                <h3>I built this website using React and Bootstrap for the front-end along with Node.js to handle the server in the back-end.</h3>
                 <h4>  <a href="https://github.com/SebGrobelny/ReactPersonalSite">Click here to view the source code on GitHub</a> </h4>
             </div>
         </div>
