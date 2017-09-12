@@ -7,6 +7,8 @@ const app = express();
 const compiler = webpack(webpackConfig);
  
 app.use(express.static(__dirname + '/templates'));
+app.use(express.static(__dirname + '/static'));
+
  
 app.use(webpackDevMiddleware(compiler, {
   hot: true,
