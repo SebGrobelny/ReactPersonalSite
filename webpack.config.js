@@ -4,6 +4,7 @@ module.exports = {
   context: path.join(__dirname, 'static'),
   entry: [
     './main.js',
+    
   ],
   output: {
     path: path.join(__dirname, 'templates'),
@@ -26,3 +27,4 @@ module.exports = {
     ],
   },
 };
+

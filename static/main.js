@@ -3,6 +3,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 // import Counter from './Counter';
 import Clock from './Counter';
+import PortfolioComponent from './Portfolio';
  
 var ContactComponent = React.createClass({
 
@@ -84,86 +85,8 @@ var HomeComponent = React.createClass({
   }
 });
 
-var PortfolioComponent = React.createClass({
-
-  render: function() {
-    return (
-  <section className="bg-dark" id="portfolio">
-            <div className="container text-center">
-                <div className="call-to-action">
-                    <i className="fa fa-4x fa-paper-plane text-primary sr-icons"></i>
-                    <h2 className="section-heading">PORTFOLIO</h2>
-                    <hr className="primary"/>
-                    <p> Here are some of the projects I have had the pleasure of working on.
-                        Please click on the previews below to view them on Heroku! </p>
-                </div>
-            </div>
-            <div className="container-fluid">
-                    <div className="row">
-                    <div className="col-lg-12 col-sm-6">
-                            <a href="https://californiawineclassics.herokuapp.com/home" className="portfolio-box">
-                                <img src="img/portfolio/thumbnails/7.jpg" className="img-responsive" alt=""/>
-                                <div className="portfolio-box-caption">
-                                    <div className="portfolio-box-caption-content">
-                                        <div className="project-name">
-                                            California Wine Classics Website
-                                        </div>
-                                        <div className="project-category text-faded">
-                                            Currently migrating from Flask, SQLite3 to WordPress
-                                        </div>
-                                        <div className="project-category text-faded">
-                                           <a href="https://github.com/SebGrobelny/CaliforniaWineClassics">  github.com/SebGrobelny/CaliforniaWineClassics </a> 
-                                        </div>
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-                        <div className="col-lg-12 col-sm-6">
-
-                            <a href="https://sebsfdevelop.herokuapp.com/" className="portfolio-box">
-                                <img src="img/portfolio/thumbnails/1.jpg" className="img-responsive" alt=""/>
-                                <div className="portfolio-box-caption">
-                                    <div className="portfolio-box-caption-content">
-                                        <div className="project-name">
-                                            San Francisco Development Pipeline
-                                        </div>
-                                        <div className="project-category text-faded">
-                                            Flask, SQLite3, D3
-                                        </div>
-                                        <div className="project-category text-faded">
-                                          <a href="https://github.com/SebGrobelny/SFDevelopmentPipeline">  github.com/SebGrobelny/SFDevelopmentPipeline </a> 
-                                        </div>
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-                        <div className="col-lg-12 col-sm-6">
-                            <a href="https://sebnba-pro.herokuapp.com/" className="portfolio-box">
-                                <img src="img/portfolio/thumbnails/2.jpg" className="img-responsive" alt=""/>
-                                <div className="portfolio-box-caption">
-                                    <div className="portfolio-box-caption-content">
-                                        <div className="project-name">
-                                            NBA 2014-2016 Shot Analytics
-                                        </div>
-                                        <div className="project-category text-faded">
-                                            Flask, SQLite3
-                                        </div>
-                                        <div className="project-category text-faded">
-                                           <a href="https://github.com/SebGrobelny/NBAAnalytics">  github.com/SebGrobelny/NBAAnalytics </a> 
-                                        </div>
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-
-                    </div>
-                </div>
-      </section>
-    );
-  }
 
 
-});
 
 var ExperienceComponent = React.createClass({
   
