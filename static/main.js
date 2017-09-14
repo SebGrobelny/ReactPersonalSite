@@ -192,7 +192,7 @@ var AboutComponent = React.createClass({
         <div className="container">
             <div className="row">
                   <div className="col-lg-8 col-lg-offset-2 text-center">
-                    <i className="fa fa-4x fa-paper-plane text-primary sr-icons"></i>
+                    <i className="fa fa-4x fa-diamond text-primary sr-icons"></i>
                     <h2 className="section-heading">ABOUT</h2>
                     <hr className="primary"/>
                     <div>
