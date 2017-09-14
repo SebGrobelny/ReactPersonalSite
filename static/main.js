@@ -96,7 +96,7 @@ var ExperienceComponent = React.createClass({
         <div className="container">
             <div className="row">
                 <div className="col-lg-12 text-center">
-                       <i className="fa fa-4x fa-newspaper-o text-primary sr-icons"></i>
+                    <i className="fa fa-4x fa-newspaper-o text-primary sr-icons"></i>
                     <h2 className="section-heading">PROFESSIONAL EXPERIENCE</h2>
                     <hr className="primary"/>
 
@@ -127,7 +127,6 @@ var ExperienceComponent = React.createClass({
                             Python, Java<br />
                             <br />
                             </p>
-
                     </div> 
                     </div>
                 </div>
@@ -150,6 +149,7 @@ var ExperienceComponent = React.createClass({
         <div className="container">
             <div className="row">
                 <div className="col-lg-12 text-center">
+                     <i className="fa fa-4x fa-heart text-primary sr-icons"></i>
                     <h2 className="section-heading">Volunteer Experience</h2>
                     <hr className="primary" />
                 </div>
