@@ -62,9 +62,9 @@ function ColumnBox(props){
 function Row(props){
     return(
         <div className = "row">
-            {props.row1}
-            {props.row2}
-            {props.row3}
+            {props.columnbox1}
+            {props.columnbox2}
+            {props.columnbox3}
         </div>
     );
 }
