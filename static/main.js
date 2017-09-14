@@ -107,7 +107,6 @@ var ExperienceComponent = React.createClass({
             <div className="row">
                 <div className="col-lg-12 col-md-6 text-center">
                     <div className="service-box">
-                       <i className="fa fa-4x fa-diamond text-primary sr-icons"></i>
                         <h3>Student Academic Success Center  </h3>
                         <p >                           
                             Operating Systems Tutor<br />
@@ -120,7 +119,6 @@ var ExperienceComponent = React.createClass({
                 </div>
                 <div className="col-lg-12 col-md-6 text-center">
                     <div className="service-box">
-                        <i className="fa fa-4x fa-paper-plane text-primary sr-icons"></i>
                         <h3>  Niche Holdings  </h3>
                          <p >                           
                             Software Developer Intern<br />
@@ -135,7 +133,6 @@ var ExperienceComponent = React.createClass({
                 </div>
                 <div className="col-lg-12 col-md-6 text-center">
                   <div className="service-box">
-                    <i className="fa fa-4x fa-newspaper-o text-primary sr-icons"></i> 
                           <h3>  GoodData  </h3>
                           <p >                           
                               Software Engineer Intern<br />
