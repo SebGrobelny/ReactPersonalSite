@@ -150,7 +150,6 @@ var ExperienceComponent = React.createClass({
         <div className="container">
             <div className="row">
                 <div className="col-lg-12 text-center">
-                     <i className="fa fa-4x fa-heart text-primary sr-icons"></i>
                     <h2 className="section-heading">Volunteer Experience</h2>
                     <hr className="primary" />
                 </div>
@@ -193,6 +192,7 @@ var AboutComponent = React.createClass({
         <div className="container">
             <div className="row">
                   <div className="col-lg-8 col-lg-offset-2 text-center">
+                    <i className="fa fa-4x fa-paper-plane text-primary sr-icons"></i>
                     <h2 className="section-heading">ABOUT</h2>
                     <hr className="primary"/>
                     <div>
