@@ -1,6 +1,6 @@
 import React from 'react';
 
-
+//The Portfolio page using composition 
 function ProjectName(props){
     return(
       <div className = "project-name">
@@ -69,6 +69,19 @@ function Row(props){
     );
 }
 
+function ContainerFluid(props){
+
+    return(
+            <div className="container-fluid">
+                {props.row}
+            </div>
+
+    );
+
+
+
+}
+
 
 var PortfolioComponent = React.createClass({
 
@@ -84,61 +97,61 @@ var PortfolioComponent = React.createClass({
                         Please click on the previews below to view them on Heroku! </p>
                 </div>
             </div>
-            <div className="container-fluid">
-                    <Row                    
-                        row1 = {
-                                <ColumnBox
-                                    linkbox = {
-                                        <LinkBox 
-                                            link="https://californiawineclassics.herokuapp.com/home"
-                                            img = {<img src="img/portfolio/thumbnails/7.jpg" className="img-responsive" alt=""/>}
-                                            box = {                                
-                                                <PortfolioBox boxcontent ={
-                                                    <PortfolioBoxContent name = "California Wine Classics Website" 
-                                                        category1 = "Currently migrating from Flask, SQLite3 to WordPress" 
-                                                        category2 = {<ProjectCategory category = {<a href="https://github.com/SebGrobelny/CaliforniaWineClassics">  github.com/SebGrobelny/CaliforniaWineClassics </a> } /> }/>
-                                                    }/>
-                                            }/>
+                <ContainerFluid row ={
+                                        <Row                    
+                                            columnbox1 = {
+                                                    <ColumnBox
+                                                        linkbox = {
+                                                            <LinkBox 
+                                                                link="https://californiawineclassics.herokuapp.com/home"
+                                                                img = {<img src="img/portfolio/thumbnails/7.jpg" className="img-responsive" alt=""/>}
+                                                                box = {                                
+                                                                    <PortfolioBox boxcontent ={
+                                                                        <PortfolioBoxContent name = "California Wine Classics Website" 
+                                                                            category1 = "Currently migrating from Flask, SQLite3 to WordPress" 
+                                                                            category2 = {<ProjectCategory category = {<a href="https://github.com/SebGrobelny/CaliforniaWineClassics">  github.com/SebGrobelny/CaliforniaWineClassics </a> } /> }/>
+                                                                        }/>
+                                                                }/>
 
-                                        }/>
-                        }
+                                                            }/>
+                                            }
 
-                        row2 ={
-                                <ColumnBox
-                                    linkbox = {
-                                        <LinkBox 
-                                            link = "https://sebsfdevelop.herokuapp.com/"
-                                            img = {<img src="img/portfolio/thumbnails/1.jpg" className="img-responsive" alt=""/>}
-                                            box ={
-                                                <PortfolioBox boxcontent ={
-                                                        <PortfolioBoxContent name = "San Francisco Development Pipeline"
-                                                        category1 = "Flask, SQLite3, D3"  
-                                                        category2 = {<ProjectCategory category = {<a href="https://github.com/SebGrobelny/SFDevelopmentPipeline">  github.com/SebGrobelny/SFDevelopmentPipeline </a> } /> }/>
+                                            columnbox2 ={
+                                                    <ColumnBox
+                                                        linkbox = {
+                                                            <LinkBox 
+                                                                link = "https://sebsfdevelop.herokuapp.com/"
+                                                                img = {<img src="img/portfolio/thumbnails/1.jpg" className="img-responsive" alt=""/>}
+                                                                box ={
+                                                                    <PortfolioBox boxcontent ={
+                                                                            <PortfolioBoxContent name = "San Francisco Development Pipeline"
+                                                                            category1 = "Flask, SQLite3, D3"  
+                                                                            category2 = {<ProjectCategory category = {<a href="https://github.com/SebGrobelny/SFDevelopmentPipeline">  github.com/SebGrobelny/SFDevelopmentPipeline </a> } /> }/>
+                                                                            }/>
+
+                                                                }/>
+                                                        }/>
+                                                }
+
+                                            columnbox3 = {
+                                                    <ColumnBox
+                                                        linkbox = {
+                                                            <LinkBox 
+                                                                link = "https://sebnba-pro.herokuapp.com/"
+                                                                img = {<img src="img/portfolio/thumbnails/2.jpg" className="img-responsive" alt=""/>}
+                                                                box ={
+                                                                    <PortfolioBox boxcontent ={
+                                                                        <PortfolioBoxContent name = "NBA 2014-2016 Shot Analytics"
+                                                                            category1 = "Flask, SQLite3"  
+                                                                            category2 = {<ProjectCategory category = {<a href="https://github.com/SebGrobelny/NBAAnalytics">  github.com/SebGrobelny/NBAAnalytics </a> } /> }/>
+                                                                        }/>
+
+                                                                }/>
+                                                               
                                                         }/>
 
-                                            }/>
-                                    }/>
-                            }
-
-                        row3 = {
-                                <ColumnBox
-                                    linkbox = {
-                                        <LinkBox 
-                                            link = "https://sebnba-pro.herokuapp.com/"
-                                            img = {<img src="img/portfolio/thumbnails/2.jpg" className="img-responsive" alt=""/>}
-                                            box ={
-                                                <PortfolioBox boxcontent ={
-                                                    <PortfolioBoxContent name = "NBA 2014-2016 Shot Analytics"
-                                                        category1 = "Flask, SQLite3"  
-                                                        category2 = {<ProjectCategory category = {<a href="https://github.com/SebGrobelny/NBAAnalytics">  github.com/SebGrobelny/NBAAnalytics </a> } /> }/>
-                                                    }/>
-
-                                            }/>
-                                           
-                                    }/>
-
-                            }/>
-                </div>
+                                                }/>
+                    }/>
       </section>
     );
   }
