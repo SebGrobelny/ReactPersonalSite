@@ -211,17 +211,16 @@ var ExperienceComponent = React.createClass({
                     </div>
                 </div>
                 <div className="col-lg-12 col-md-6 text-center">
-                  <i className="fa fa-4x fa-newspaper-o text-primary sr-icons"></i> 
                   <div className="service-box">
-                        <h3>  GoodData  </h3>
-                        <p >                           
-                            Professional Services Intern<br />
-                            Jun 2016 – Sep 2016<br />  
-                            San Francisco Bay Area<br />
-                            Python, Java, JavaScript, SQL, PostGres, REST <br />
-                            <br />
-                        </p>
-
+                    <i className="fa fa-4x fa-newspaper-o text-primary sr-icons"></i> 
+                          <h3>  GoodData  </h3>
+                          <p >                           
+                              Software Engineer Intern<br />
+                              Jun 2016 – Sep 2016<br />  
+                              San Francisco Bay Area<br />
+                              Python, Java, JavaScript, SQL, PostGres, REST <br />
+                              <br />
+                          </p>
                     </div> 
                     <div className="service-box">
                     </div>
