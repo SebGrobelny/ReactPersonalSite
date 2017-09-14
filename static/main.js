@@ -98,47 +98,66 @@ var PortfolioComponent = React.createClass({
                         Please click on the previews below to view them on Heroku! </p>
                 </div>
             </div>
-    <div className="container-fluid">
-            <div className="row">
-                <div className="col-lg-12 col-sm-6">
+            <div className="container-fluid">
+                    <div className="row">
+                    <div className="col-lg-12 col-sm-6">
+                            <a href="https://californiawineclassics.herokuapp.com/home" className="portfolio-box">
+                                <img src="img/portfolio/thumbnails/7.jpg" className="img-responsive" alt=""/>
+                                <div className="portfolio-box-caption">
+                                    <div className="portfolio-box-caption-content">
+                                        <div className="project-name">
+                                            California Wine Classics Website
+                                        </div>
+                                        <div className="project-category text-faded">
+                                            Currently migrating from Flask, SQLite3 to WordPress
+                                        </div>
+                                        <div className="project-category text-faded">
+                                           <a href="https://github.com/SebGrobelny/CaliforniaWineClassics">  github.com/SebGrobelny/CaliforniaWineClassics </a> 
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div className="col-lg-12 col-sm-6">
 
-                    <a href="https://sebsfdevelop.herokuapp.com/" className="portfolio-box">
-                        <img src="img/portfolio/thumbnails/1.jpg" className="img-responsive" alt=""/>
-                        <div className="portfolio-box-caption">
-                            <div className="portfolio-box-caption-content">
-                                <div className="project-name">
-                                    San Francisco Development Pipeline
+                            <a href="https://sebsfdevelop.herokuapp.com/" className="portfolio-box">
+                                <img src="img/portfolio/thumbnails/1.jpg" className="img-responsive" alt=""/>
+                                <div className="portfolio-box-caption">
+                                    <div className="portfolio-box-caption-content">
+                                        <div className="project-name">
+                                            San Francisco Development Pipeline
+                                        </div>
+                                        <div className="project-category text-faded">
+                                            Flask, SQLite3, D3
+                                        </div>
+                                        <div className="project-category text-faded">
+                                          <a href="https://github.com/SebGrobelny/SFDevelopmentPipeline">  github.com/SebGrobelny/SFDevelopmentPipeline </a> 
+                                        </div>
+                                    </div>
                                 </div>
-                                <div className="project-category text-faded">
-                                    Flask, SQLite3, D3
-                                </div>
-                                <div className="project-category text-faded">
-                                  <a href="https://github.com/SebGrobelny/SFDevelopmentPipeline">  github.com/SebGrobelny/SFDevelopmentPipeline </a> 
-                                </div>
-                            </div>
+                            </a>
                         </div>
-                    </a>
-                </div>
-                <div className="col-lg-12 col-sm-6">
-                    <a href="https://sebnba-pro.herokuapp.com/" className="portfolio-box">
-                        <img src="img/portfolio/thumbnails/2.jpg" className="img-responsive" alt=""/>
-                        <div className="portfolio-box-caption">
-                            <div className="portfolio-box-caption-content">
-                                <div className="project-name">
-                                    NBA 2014-2016 Shot Analytics
+                        <div className="col-lg-12 col-sm-6">
+                            <a href="https://sebnba-pro.herokuapp.com/" className="portfolio-box">
+                                <img src="img/portfolio/thumbnails/2.jpg" className="img-responsive" alt=""/>
+                                <div className="portfolio-box-caption">
+                                    <div className="portfolio-box-caption-content">
+                                        <div className="project-name">
+                                            NBA 2014-2016 Shot Analytics
+                                        </div>
+                                        <div className="project-category text-faded">
+                                            Flask, SQLite3
+                                        </div>
+                                        <div className="project-category text-faded">
+                                           <a href="https://github.com/SebGrobelny/NBAAnalytics">  github.com/SebGrobelny/NBAAnalytics </a> 
+                                        </div>
+                                    </div>
                                 </div>
-                                <div className="project-category text-faded">
-                                    Flask, SQLite3
-                                </div>
-                                <div className="project-category text-faded">
-                                   <a href="https://github.com/SebGrobelny/NBAAnalytics">  github.com/SebGrobelny/NBAAnalytics </a> 
-                                </div>
-                            </div>
+                            </a>
                         </div>
-                    </a>
+
+                    </div>
                 </div>
-            </div>
-        </div>
       </section>
     );
   }
