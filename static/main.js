@@ -3,7 +3,10 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 // import Counter from './Counter';
 import Clock from './Counter';
-import PortfolioComponent from './Portfolio';
+// import PortfolioComponent from './Portfolio';
+
+
+var PortfolioComponent = require('./Portfolio').portfolio;
  
 var ContactComponent = React.createClass({
 

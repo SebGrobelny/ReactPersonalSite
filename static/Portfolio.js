@@ -1,86 +1,16 @@
 import React from 'react';
 
 //The Portfolio page using composition 
-function ProjectName(props){
-    return(
-      <div className = "project-name">
-        {props.name}
-      </div>
-      );
-  }
 
-function ProjectCategory(props){
-  return(
-            <div className="project-category text-faded">
-                {props.category}
-            </div>
+var   ProjectName = require('./Container').projectname;
+var   ProjectCategory = require('./Container').projectcategory;
+var   PortfolioBoxContent = require('./Container').portfolioboxcontent;
+var   PortfolioBox = require('./Container').portfoliobox;
+var   LinkBox = require('./Container').linkbox;
+var   ColumnBox = require('./Container').columnbox;
+var   Row = require('./Container').row;
+var   ContainerFluid = require('./Container').containerfluid; 
 
-    );
-}
-
-function PortfolioBoxContent(props){
-    return(
-        <div className="portfolio-box-caption-content">
-            <ProjectName name = {props.name} />
-            <ProjectCategory category= {props.category1} />
-            <ProjectCategory category= {props.category2} />
-
-         </div>
-    );
-
-}
-
-function PortfolioBox(props){
-    return(
-            <div className="portfolio-box-caption">
-                {props.boxcontent}
-            </div>
-    );
-
-}
-
-function LinkBox(props){
-
-    return(
-        <a href={props.link} className="portfolio-box">
-            {props.img}
-            {props.box}
-        </a>
-
-    );
-}
-
-function ColumnBox(props){
-    return(
-            <div className="col-lg-12 col-sm-6">
-                {props.linkbox}
-            </div>
-    );
-
-}
-
-function Row(props){
-    return(
-        <div className = "row">
-            {props.columnbox1}
-            {props.columnbox2}
-            {props.columnbox3}
-        </div>
-    );
-}
-
-function ContainerFluid(props){
-
-    return(
-            <div className="container-fluid">
-                {props.row}
-            </div>
-
-    );
-
-
-
-}
 
 
 var PortfolioComponent = React.createClass({
@@ -159,4 +89,8 @@ var PortfolioComponent = React.createClass({
 
 });
 
-export default PortfolioComponent;
+// export default PortfolioComponent;
+
+module.exports = {
+    portfolio: PortfolioComponent
+}
