@@ -110,6 +110,18 @@ var ExperienceComponent = React.createClass({
             <div className="row">
                 <div className="col-lg-12 col-md-6 text-center">
                     <div className="service-box">
+                        <h3>California Wine Classics </h3>
+                        <p >                           
+                            Full Stack Developer<br />
+                            Jul 2017 – Current<br />  
+                            Stockton<br />
+                             CSS, HTML, Flask, Javascript, PHP, Postgres, Python, Wordpress, SQLite3 <br />
+                            <br />
+                        </p>
+                    </div>
+                </div>
+                <div className="col-lg-12 col-md-6 text-center">
+                    <div className="service-box">
                         <h3>Student Academic Success Center  </h3>
                         <p >                           
                             Operating Systems Tutor<br />

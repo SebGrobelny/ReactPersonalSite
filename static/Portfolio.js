@@ -38,8 +38,8 @@ var PortfolioComponent = React.createClass({
                                                                 box = {                                
                                                                     <PortfolioBox boxcontent ={
                                                                         <PortfolioBoxContent name = "California Wine Classics Website" 
-                                                                            category1 = "Currently migrating from Flask, SQLite3 to WordPress" 
-                                                                            category2 = {<ProjectCategory category = {<a href="https://github.com/SebGrobelny/CaliforniaWineClassics">  github.com/SebGrobelny/CaliforniaWineClassics </a> } /> }/>
+                                                                            category1 = "Flask, Postgres" 
+                                                                            category2 = {<ProjectCategory category = {Private Repository: Please Contact Me Directly to View this :) } /> }/>
                                                                         }/>
                                                                 }/>
 
