@@ -39,7 +39,7 @@ var PortfolioComponent = React.createClass({
                                                                     <PortfolioBox boxcontent ={
                                                                         <PortfolioBoxContent name = "California Wine Classics Website" 
                                                                             category1 = "Flask, Postgres" 
-                                                                            category2 = {<ProjectCategory category = {Private Repository: Please Contact Me Directly to View this :) } /> }/>
+                                                                            category2 = {<ProjectCategory category = {Private Repository: Please Contact Me Directly to View This } /> }/>
                                                                         }/>
                                                                 }/>
 
