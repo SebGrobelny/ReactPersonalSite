@@ -33,13 +33,13 @@ var PortfolioComponent = React.createClass({
                                                     <ColumnBox
                                                         linkbox = {
                                                             <LinkBox 
-                                                                link="https://californiawineclassics.herokuapp.com/home"
+                                                                link="https://californiawineclassics.com/"
                                                                 img = {<img src="img/portfolio/thumbnails/7.jpg" className="img-responsive" alt=""/>}
                                                                 box = {                                
                                                                     <PortfolioBox boxcontent ={
                                                                         <PortfolioBoxContent name = "California Wine Classics Website" 
-                                                                            category1 = "Flask, Postgres" 
-                                                                            category2 = {<ProjectCategory category = {<a href="mailto:sebastiangrobelny15@gmail.com">  Private Repository Please Contact Me Directly to View </a> } /> }/>
+                                                                            category1 = "Django, Heroku, Postgres, Wordpress" 
+                                                                            category2 = {<ProjectCategory category = {<a href="mailto:sebastiangrobelny15@gmail.com">  github.com/SebGrobelny/CAWineClassics </a> } /> }/>
                                                                         }/>
                                                                 }/>
 

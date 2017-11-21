@@ -115,7 +115,7 @@ var ExperienceComponent = React.createClass({
                             Full Stack Developer<br />
                             Jul 2017 – Current<br />  
                             Stockton<br />
-                             CSS, HTML, Flask, Javascript, PHP, Postgres, Python, Wordpress, SQLite3 <br />
+                             CSS, Django, HTML, Flask, Javascript, PHP, Postgres, Python, Wordpress, SQLite3 <br />
                             <br />
                         </p>
                     </div>
